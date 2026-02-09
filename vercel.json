@@ -1,0 +1,15 @@
+{
+  "builds": [
+    {
+      "src": "website/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "build"
+      }
+    }
+  ],
+  "github": {
+    "enabled": true,
+    "autoJobCancelation": true
+  }
+}

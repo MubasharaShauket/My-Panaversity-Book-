@@ -1,0 +1,7 @@
+{
+  "framework": "docusaurus",
+  "buildCommand": "cd website && npm install && npm run build",
+  "outputDirectory": "website/build",
+  "devCommand": "cd website && npm run start",
+  "installCommand": "cd website && npm install"
+}
